@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  marging: 0;
   padding: 0;
 
   font-family: MerriWeather, serif;
@@ -10,29 +9,62 @@ html {
   box-sizing: inherit;
 }
 
-header {
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+h1 {
   background-color: #d05c2e;
+  font-size: 2rem;
   color: #fff;
   overflow: hidden; /* Simple clearfix */
   text-align: center;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.nav li {
+  float: left;
+  width: 33.3%;
+}
+
+.nav {
+  background-color: #d05c2e;
+  color: #fff;
+  overflow: hidden;
+  border: 1px solid #a63f38;
 }
 
 .left-image {
   float: left;
   width: 40px;
+  margin-top: 1em;
 }
 
 .right-image {
   float: right;
   width: 40px;
+  margin-top: 1em;
 }
 
-li {
+ul {
   list-style-type: none;
-  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
-nav {
-  border-top: 1px solid #a63f38;
-  border-bottom: 1px solid #a63f38;
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  border-right: 1px solid #a63f38;
+  text-align: center;
+}
+
+header {
+  background-color: #d05c2e;
+  margin: 0;
 }
