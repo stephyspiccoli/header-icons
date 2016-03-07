@@ -1,7 +1,38 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  marging: 0;
+  padding: 0;
+
+  font-family: MerriWeather, serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #d05c2e;
+  color: #fff;
+  overflow: hidden; /* Simple clearfix */
+  text-align: center;
+}
+
+.left-image {
+  float: left;
+  width: 40px;
+}
+
+.right-image {
+  float: right;
+  width: 40px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav {
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
 }
